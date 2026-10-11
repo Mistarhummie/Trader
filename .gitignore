@@ -1,0 +1,15 @@
+# Secrets: never commit your API keys
+.env
+config.yaml
+
+# Downloaded price data and results
+data/*
+!data/.gitkeep
+results/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
